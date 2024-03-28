@@ -69,7 +69,7 @@ Get help: [Post in our discussion board](https://github.com/skills/.github/discu
 </footer>
 
 ```mermaid
-graph TD;
+flowchart TD;
     A[Backup Data] --> B[Choose GNU/Linux OS Distribution];
     B --> C[Create Bootable USB];
     C --> D[Boot from USB];
