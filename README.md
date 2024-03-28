@@ -68,7 +68,7 @@ Get help: [Post in our discussion board](https://github.com/skills/.github/discu
 
 </footer>
 
-```mermaid
+
 graph TD
     A[Backup Data] --> B[Choose GNU/Linux OS Distribution]
     B --> C[Create Bootable USB]
@@ -118,4 +118,4 @@ graph TD
     E6[Restart your computer]
     E7[Remove the USB drive when prompted and boot into your newly installed GNU/Linux OS]
     end
-```
+
