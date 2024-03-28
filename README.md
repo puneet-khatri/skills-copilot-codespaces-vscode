@@ -67,3 +67,55 @@ Get help: [Post in our discussion board](https://github.com/skills/.github/discu
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
+
+```mermaid
+graph TD
+    A[Backup Data] --> B[Choose GNU/Linux OS Distribution]
+    B --> C[Create Bootable USB]
+    C --> D[Boot from USB]
+    D --> E[Install GNU/Linux OS]
+
+    subgraph A
+    A[Backup Data]
+    end
+
+    subgraph B
+    B[Choose GNU/Linux OS Distribution]
+    B1[Research different GNU/Linux distributions and choose the one that best fits your needs. Popular options include:]
+    B2[Ubuntu](https://ubuntu.com/download) - A user-friendly GNU/Linux distribution suitable for beginners.
+    B3[Fedora](https://getfedora.org/) - A community-driven GNU/Linux distribution known for its cutting-edge features.
+    B4[Debian](https://www.debian.org/distrib/) - A stable and reliable GNU/Linux distribution often used as a base for other distributions.
+    end
+
+    subgraph C
+    C[Create Bootable USB]
+    C1[Download Rufus](https://rufus.ie/) - A tool for creating bootable USB drives from ISO images.
+    C2[Download the ISO image of your chosen GNU/Linux distribution]
+    C3[Insert a USB drive (8GB or larger) into your computer]
+    C4[Open Rufus and select the USB drive]
+    C5[Select the downloaded ISO image]
+    C6[Click "Start" to create the bootable USB drive]
+    end
+
+    subgraph D
+    D[Boot from USB]
+    D1[Restart your computer]
+    D2[Enter the BIOS or UEFI settings (usually by pressing F2, F12, or Del during startup)]
+    D3[Set the boot order to prioritize USB devices]
+    D4[Save changes and exit BIOS/UEFI settings]
+    D5[Insert the bootable USB drive into your computer]
+    D6[Restart your computer]
+    D7[Follow on-screen instructions to boot from USB]
+    end
+
+    subgraph E
+    E[Install GNU/Linux OS]
+    E1[Select "Install" from the GNU/Linux distribution's boot menu]
+    E2[Follow the installation wizard, choosing your language, keyboard layout, and timezone]
+    E3[Choose installation type (e.g., erase disk and install GNU/Linux, alongside Windows, etc.)]
+    E4[Create a user account and password]
+    E5[Wait for the installation to complete]
+    E6[Restart your computer]
+    E7[Remove the USB drive when prompted and boot into your newly installed GNU/Linux OS]
+    end
+```
