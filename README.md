@@ -82,14 +82,14 @@ graph TD;
     subgraph B;
     B[Choose GNU/Linux OS Distribution];
     B1[Research different GNU/Linux distributions and choose the one that best fits your needs. Popular options include:];
-    B2[Ubuntu](https://ubuntu.com/download) - A user-friendly GNU/Linux distribution suitable for beginners;
-    B3[Fedora](https://getfedora.org/) - A community-driven GNU/Linux distribution known for its cutting-edge features;
-    B4[Debian](https://www.debian.org/distrib/) - A stable and reliable GNU/Linux distribution often used as a base for other distributions;
+    B2[Ubuntu] - A user-friendly GNU/Linux distribution suitable for beginners;
+    B3[Fedora] - A community-driven GNU/Linux distribution known for its cutting-edge features;
+    B4[Debian] - A stable and reliable GNU/Linux distribution often used as a base for other distributions;
     end;
 
     subgraph C;
     C[Create Bootable USB];
-    C1[Download Rufus](https://rufus.ie/) - A tool for creating bootable USB drives from ISO images;
+    C1[Download Rufus] - A tool for creating bootable USB drives from ISO images;
     C2[Download the ISO image of your chosen GNU/Linux distribution];
     C3[Insert a USB drive (8GB or larger) into your computer];
     C4[Open Rufus and select the USB drive];
